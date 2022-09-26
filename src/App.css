@@ -1,0 +1,120 @@
+header{
+
+  /* background-color: rgb(0, 119, 255); */
+  /* background-image: repeating-linear-gradient(-30deg, rgb(12, 15, 109), #08d1f4 10%); */
+  /* border-bottom: white; */
+  /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+
+
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(3, 221, 255);
+  color: #ffffff;
+  height: 60px;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 20px;
+  
+  
+}
+ /* .sub{
+text-align: center;
+box-shadow: 2px 02px 0px 0px white;
+background-color: black; 
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); 
+
+
+}  */
+
+
+footer{
+   /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(0, 136, 255);
+  color: white;
+  text-align: center;
+  padding: 5px;
+   background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+
+}
+
+/* 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
+} */
+
+main{
+  padding-top: 20px;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  gap: 70px;
+  /* background-color: aqua; */
+  
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+
+}
+.label{
+  
+  display: flex;
+  gap: 7px;
+  cursor: pointer;
+  
+
+}
+
+.box
+{
+    /* padding: 10px; */
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+
+    background-color: white;
+      /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+
+    border-radius: 8%;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 149, 255, 0.479), 0 6px 20px 0 rgba(2, 182, 254, 0.19);
+    /* color: white; */
+    
+}
+img {
+  padding: 5px;
+  border-radius: 10%;
+}
+.btn{
+  background-image: linear-gradient(-45deg, rgb(12, 15, 109), #08d1f4 50%);
+
+  border: none;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+  cursor: pointer;
+  width: 50%;
+  padding:4%;
+  font-weight: bold;
+}
+
+.productname{
+  font-size: 20px;
+  font-weight: bold;
+  /* padding: 2px; */
+}
+.price{
+  /* font-size: 20px; */
+  /* font-weight: bold; */
+  font-weight: 500; 
+  padding: 5px;
+}
